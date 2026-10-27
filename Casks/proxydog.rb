@@ -1,9 +1,9 @@
 cask "proxydog" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "7b55a6c5b33f06bc430d03073a861fddd6020c55984de058e62c3fce8db64b92",
-         intel: "d26c3fb144e9cbdb9aa486df39245d96a8d5c37648d966033e4c4882bc19050a"
+  version "1.1.0"
+  sha256 arm:   "886f2315b6f35f35b069a88acfd069a2ecbac1b5a68742240c2dd050ff3a6945",
+         intel: "1a28a877fed603eedd8a34d5ba77337fbf6c0af18f664f2b2d4a564f4092db53"
 
   url "https://github.com/babaktaremi/proxydog/releases/download/v#{version}/ProxyDog-#{version}-macos-#{arch}.zip"
   name "ProxyDog"
